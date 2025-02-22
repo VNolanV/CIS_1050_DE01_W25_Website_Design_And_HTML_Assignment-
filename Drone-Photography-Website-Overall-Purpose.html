@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Photography/Videography - An Introduction</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .button:hover {
+            background-color: #0056b3;
+        }
+        
+        #main-header {
+            position: relative;
+            background-image: url('Homepage-Header-Background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            z-index: 1;
+        }
+        /* Create a dark overlay */
+        
+        #main-header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+        
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-header">
+        <h1 style="font-weight: 700;">Overall Purpose</h1>
+    </header>
+
+    <nav style="font-weight: 500;">
+        <a href="Drone-Photography-Website-Homepage.html">Home</a>
+        <a href="Drone-Photography-Website-Overall-Purpose.html">Overall Purpose</a>
+        <a href="Drone-Photography-Website-Cost-Budget.html">Cost/Budget</a>
+        <a href="Drone-Photography-Website-Drone-Features-Capabilities-Characteristics.html">Drone Features/Capabilities/Characteristics</a>
+        <a href="Drone-Photography-Website-Drone-Recommendations.html">Drone Recommendations</a>
+    </nav>
+
+    <main>
+        <h1 style="text-align: left;">What Are You Looking For?</h1>
+        <p style="text-align: left;">
+            Before diving into the world of photography drones and picking out a lineup to consider buying, 
+            it's important to first know what you want to or are aiming to achieve with a photography drone. 
+            Understanding your specific goals—whether it’s capturing breathtaking landscapes, dynamic action 
+            shots, or creative artistic angles—will help you choose a drone that fits your needs. 
+            This understanding will not only guide you in selecting the right brands, features, and 
+            capabilities, but also ensures that you invest in a model that meets your expectations, skill level, 
+            and cost performance ratio. Ultimately, setting clear objectives from the start is key to maximizing 
+            you and your drone’s potential and achieving the results you are looking for.
+        </p>
+
+        <img src="Question-Marks.jpg" alt="Person standing with a question mark pondering the purpose of a photography drone and what they are looking for." style="display: block; margin-left: auto; margin-right: auto;">
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nolan Van. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
